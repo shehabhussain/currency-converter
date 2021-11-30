@@ -3,7 +3,19 @@ import { useState } from "react";
 import axios from "axios";
 
 const CurrencyConverter = () => {
-	const currencies = ["BTC", "ETH", "USD", "INR", "GBP", "ADA", "SOL"];
+	const currencies = [
+		"BTC",
+		"ETH",
+		"USD",
+		"INR",
+		"GBP",
+		"ADA",
+		"SOL",
+		"EUR",
+		"CAD",
+		"SAR",
+		"AED",
+	];
 	const [primaryCurrency, setPrimaryCurrency] = useState("BTC");
 	const [secondaryCurrency, setSecondaryCurrency] = useState("USD");
 	const [amount, setAmount] = useState(1);
