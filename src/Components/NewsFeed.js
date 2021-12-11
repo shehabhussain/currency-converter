@@ -12,8 +12,8 @@ const NewsFeed = () => {
 			headers: {
 				"x-rapidapi-host":
 					"crypto-news-live.p.rapidapi.com",
-				"x-rapidapi-key":
-					process.env.REACT_APP_RAPID_API_KEY,
+				"x-rapidapi-key": "136ceb5e1bmsh48d7eefc831247fp1bca0fjsnfaf84ea891e1"
+					
 			},
 		};
 

@@ -23,6 +23,7 @@ const CurrencyConverter = () => {
 	const [result, setResult] = useState(0);
 
 	const convert = () => {
+		console.log(process.env.REACT_APP_X_RAPIDAPI_KEY)
 		const options = {
 			method: "GET",
 			url: "https://alpha-vantage.p.rapidapi.com/query",
@@ -34,8 +35,10 @@ const CurrencyConverter = () => {
 			headers: {
 				"x-rapidapi-host":
 					"alpha-vantage.p.rapidapi.com",
-				"x-rapidapi-key":
-					process.env.REACT_APP_RAPID_API_KEY,
+				"x-rapidapi-key": "136ceb5e1bmsh48d7eefc831247fp1bca0fjsnfaf84ea891e1"
+				
+				
+					
 			},
 		};
 
