@@ -28,31 +28,15 @@ html{
 }
 .home{
   display:flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: -50px;
-}
-.news-feed{
-  max-width:15%;
-  background-color:#F5D4CC;
-  margin: 50px 25px 0 25px;
-  padding:10px 15px 10px 15px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  box-shadow:0 3px 10px rgb(0 0 0 / 0.9);
 }
-.article{
-  margin-top: 10px;
-  margin-bottom: 5px;
-  text-align: center;
-}
+
 .converter{
-  max-width:60%;
+  max-width:80%;
   background-color:#F8E2DD;
-  margin-top: -40px;
+  margin-top: 6px;
+  margin-bottom: 2px;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -91,7 +75,7 @@ html{
   display:flex;
   justify-content: center;
   align-items: center;
-  margin-top: -80px;
+  margin-top:-120px;
 }
 .slt{
   width:200px;
@@ -105,22 +89,24 @@ html{
 }
 
 .currency-option{
-  margin-top: 16px;
+  margin-top: 30px;
   height:30px;
   border-radius: 5px;
   border-style: none;
   font-size: large;
-
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 .currency-option2{
-  margin-top: 16px;
+  margin-top: 30px;
   height:30px;
   border-radius: 5px;
   border-style: none;
   font-size: large;
 }
 .icons{
-  margin:0 10px 5px 10px;
+  margin:140px 10px 5px 10px;
   cursor:pointer;
 }
 .footer{
@@ -132,9 +118,17 @@ html{
 @media only screen and (max-width:720px){
   .converter{
     max-width:100%;
-    margin-top:50px;
+    margin-top:10px;
+  }
+  .header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
   .title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-shadow:0 3px 10px (rgb(108, 143, 156/0.9) );
   }
   .social{
@@ -147,7 +141,7 @@ html{
     display:none;
   }
   .header{
-    margin:20px 15px 10px 15px;
+    margin:0 15px 10px 15px;
   }
 
   .curncy{
@@ -164,17 +158,23 @@ html{
   }
   
 .currency-option{
-    height:30px;
+    height:28px;
+    margin-top:15px;
     border-radius: 5px;
     border-style: none;
     font-size: large;
 
   }
   .currency-option2{
-    height:30px;
+    height:28px;
+    margin-top:15px;
     border-radius: 5px;
     border-style: none;
     font-size: large;
+  }
+  .icons{
+    margin:-50px 10px 5px 10px;
+    cursor:pointer;
   }
   
 }

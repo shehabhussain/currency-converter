@@ -1,17 +1,16 @@
 import React from "react";
-import NewsFeed from "./NewsFeed";
 import CurrencyConverter from "./CurrencyConverter";
 import Footer from "./Footer";
-import Headlines from "./Headlines";
+
 
 const Home = () => {
 	return (
 		<div className="header">
 			<h1 className="title">CRYPTO CONVERTER</h1>
 			<div className="home">
-				<NewsFeed />
+				
 				<CurrencyConverter />
-				<Headlines />
+				
 			</div>
 			<div className="social">
 				<a href="https://www.instagram.com/shehab_hussain/">
