@@ -16,8 +16,8 @@ const CurrencyConverter = () => {
 		"SAR",
 		"AED",
 	];
-	const [primaryCurrency, setPrimaryCurrency] = useState("BTC");
-	const [secondaryCurrency, setSecondaryCurrency] = useState("USD");
+	const [primaryCurrency, setPrimaryCurrency] = useState("USD");
+	const [secondaryCurrency, setSecondaryCurrency] = useState("INR");
 	const [amount, setAmount] = useState(1);
 	const [exchangeRate, setExchangeRate] = useState(0);
 	const [result, setResult] = useState(0);
