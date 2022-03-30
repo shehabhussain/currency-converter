@@ -13,6 +13,7 @@ const Home = () => {
 				
 			</div>
 			<div className="social">
+				<div className="link">
 				<a className="link" href="https://www.instagram.com/shehab_hussain/">
 					<img
 						className="icons"
@@ -20,6 +21,8 @@ const Home = () => {
 						alt="social"
 					/>
 				</a>
+				</div>
+				<div className="link">
 				<a className="link" href="https://www.facebook.com/shehab.hussain.7">
 					<img
 						className="icons"
@@ -27,6 +30,8 @@ const Home = () => {
 						alt="social"
 					/>
 				</a>
+				</div>
+				<div className="link">
 				<a className="link" href="https://twitter.com/shehab_hussain7">
 					<img
 						className="icons"
@@ -34,13 +39,17 @@ const Home = () => {
 						alt="social"
 					/>
 				</a>
-				<a className="link" href="https://github.com/shehabhussain">
+				</div>
+				<div className="link">
+				<a  href="https://github.com/shehabhussain">
 					<img
 						className="icons"
 						src="./Social/github.png"
 						alt="social"
 					/>
 				</a>
+				</div>
+				
 			</div>
 			<div className="footer">
 				<Footer />
